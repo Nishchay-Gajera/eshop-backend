@@ -26,7 +26,7 @@ app.use('/orders',ordersRoutes)
 app.use("/public/uploads",express.static(__dirname+"/public/uploads"));
 
 mongoose.connect(process.env.CONNECTION_URL,{
-    // dbname: process.env.dbname
+    dbname: process.env.dbname
 })
 .then(()=>{
     console.log("Databse connection is done...")
