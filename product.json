@@ -1,0 +1,23 @@
+[
+    {
+        "_id":{
+            "$oid":"5ff15d8852a025143f9593a7c"
+        },
+        "image":"http://link.png",
+        "brand": "ASUS",
+        "prince": 250,
+        "rating": null,
+        "numofreviews": null,
+        "isfeatured": false,
+        "name": "xyz",
+        "description": "xyz",
+        "category":{
+            "$oid": "1234"
+        },
+        "reviews":[
+            {
+                "avatar": "http://xyz.jpg"
+            }
+        ]
+    }
+]

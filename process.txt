@@ -1,0 +1,13 @@
+1. create project folder
+2. npm init -y
+3. install dependencies: cors,dotenv,express,mongoose,morgan,nodemon
+4. create file app.js
+5. create .env file
+    port = 3300
+    connection_url="mongodb+srv://admin:admin@eshop.ijmwlug.mongodb.net/eshop-data"
+6. add this command in package.json file:
+    "start": "nodemon app.js"
+7. create product.json file
+8. connect project with atlas via link.
+9. change id pass in link. 
+10. npm start to start nodemon
