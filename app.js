@@ -25,7 +25,7 @@ app.use('/users',usersRoutes)
 app.use('/orders',ordersRoutes)
 app.use("/public/uploads",express.static(__dirname+"/public/uploads"));
 
-mongoose.connect(process.env.CONNECTION_URL,{
+mongoose.connect(process.env.MONGO_URI,{
     dbname: process.env.dbname
 })
 .then(()=>{
